@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">modul5_kampus</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_ub">Map</string>
+    <string name="title_activity_maps_polinem">Map</string>
+    <string name="title_activity_maps_uin">Map</string>
+    <string name="title_activity_maps_um">Map</string>
+    <string name="title_activity_maps_unism">Map</string>
+</resources>

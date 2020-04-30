@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:padding="10dp"
+android:background="@drawable/back1"
+android:id="@+id/layout"
+tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="363dp"
+    android:layout_height="125dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="6dp"
+    android:src="@drawable/icon" />
+
+<TextView
+    android:id="@+id/polinema"
+    android:layout_width="89dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button_uin"
+    android:layout_marginStart="257dp"
+    android:layout_marginTop="125dp"
+    android:text="POLINEMA"
+    android:textColor="@android:color/background_light" />
+
+<TextView
+    android:id="@+id/um"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button_uin"
+    android:layout_marginStart="174dp"
+    android:layout_marginTop="127dp"
+    android:text="UM"
+    android:textColor="@android:color/background_light"
+    tools:text="UM" />
+
+<ImageButton
+    android:id="@+id/button_polinema"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="252dp"
+    android:layout_marginTop="273dp"
+    android:src="@drawable/logo_polinema" />
+
+<ImageButton
+    android:id="@+id/button_um"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="133dp"
+    android:layout_marginTop="275dp"
+    android:src="@drawable/logo_um" />
+
+<ImageButton
+    android:id="@+id/button_uin"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="133dp"
+    android:layout_marginTop="148dp"
+    android:src="@drawable/logo_uin" />
+
+<ImageButton
+    android:id="@+id/button_unisma"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="253dp"
+    android:layout_marginTop="148dp"
+    android:src="@drawable/logo_unisma" />
+
+<ImageButton
+    android:id="@+id/button_umm"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="149dp"
+    android:src="@drawable/logo_umm"
+    app:srcCompat="@drawable/logo_umm" />
+
+<ImageButton
+    android:id="@+id/button_ub"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="13dp"
+    android:layout_marginTop="275dp"
+    android:src="@drawable/logo_ub" />
+
+<TextView
+    android:id="@+id/umm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button_uin"
+    android:layout_marginStart="47dp"
+    android:layout_marginTop="0dp"
+    android:text="UMM"
+    android:textColor="@android:color/background_light"
+    tools:text="UMM" />
+
+<TextView
+    android:id="@+id/ub"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button_uin"
+    android:layout_marginStart="53dp"
+    android:layout_marginTop="128dp"
+    android:text="UB"
+    android:textColor="@android:color/background_light"
+    tools:text="UB" />
+
+<TextView
+    android:id="@+id/uin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button_uin"
+    android:layout_marginStart="141dp"
+    android:layout_marginTop="1dp"
+    android:text="UIN MALANG"
+    android:textColor="@android:color/background_light"
+    tools:text="UIN MALANG" />
+
+<TextView
+    android:id="@+id/unisma"
+    android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button_uin"
+    android:layout_marginStart="270dp"
+    android:layout_marginTop="1dp"
+    android:text="UNISMA"
+    android:textColor="@android:color/background_light"
+    tools:text="UNISMA" />
+</RelativeLayout>
